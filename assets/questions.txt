@@ -1,0 +1,72 @@
+// Question No #1 
+what Year was the collosuem finsihed?
+80 AD
+90 AD
+60 Ad
+50 AD
+
+// Question No #2
+Who was the first emperor for rome?
+Augustus 
+Julius Caesar
+Nero
+Marcus Aurelius
+
+// Question No #3
+Whats was the bloodiest battle during the first world war?
+Battle of Verdun
+Battle of Somme
+Battle of Amiens
+Battle of Passchebdaele
+
+// Question No #4
+
+What year did Queen Elizabeth become queen of United Kingdom?
+10th of May 1954
+3rd of August 1949
+2nd of June 1953
+23rd of july 1951
+
+// Question No #5
+which country gave the statue of liberty a gift to the united states?
+Germany
+Spain
+United Kingdom
+France
+
+// Question No #6
+What was the Largest Contiguous Empire in History?
+Roman Empire
+British Empire
+Mongolian Empire
+Ottoman Empire
+
+// Question No #7
+When was the Declaration of Independence Signed?
+July 2nd 1776
+March 10th 1776
+August 21st 1776
+September 1st 1776
+
+// Question No #8
+Who was the first president of the United States?
+George Washington 
+Abraham Lincoln
+John Adams 
+Thomas Jefferson
+
+// Question No #9
+who was the first man in space?
+Yuri Gagarin
+Neil Armstrong
+Buzz Aldrin
+Wally Schirra
+
+// Question No #10
+What year was Microsoft Founded?
+12th of March 1970
+22nd of  Febuary 1988
+4th April 1975
+31st of May 1975
+
+
