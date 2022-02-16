@@ -9,18 +9,38 @@ body{
     display: grid;
     place-items: center;
     height: 100vh;
-    background: #d4e0ee;
-    background-size: cover;
-   
+    background-color: #b0c4d8;
 }
-#container{
+
+#world{
+    height: 30px;
+    width: 600px;
+    text-align: center;
+    padding: 20px 0;
+    background: #e7f1fa;
+    color: #000;
+    font-size: 23px;
+    font-weight: 600;
+    border-radius: 30px 10px;
+    border: 3px solid #b0c4d8;
+    display:inline-table;
+    text-decoration: none;
+    background-color: #b0c4d8;
+    cursor: pointer;
+
+}
+#world:hover{
+    background: #ff5235;
+    color: #000;
+}
+
+.container{
     height: auto;
     width: auto;
-    
 }
 /* start section */
 #start{
-    height: 70px;
+    height: 30px;
     width: 250px;
     text-align: center;
     padding: 20px 0;
@@ -31,7 +51,8 @@ body{
     border-radius: 30px 10px;
     border: 1px solid #b0c4d8;
     cursor: pointer;
-    display: none;
+    display:inline-table;
+    text-decoration: none;
 }
 #start:hover{
     background: #ff5235;
@@ -91,6 +112,7 @@ body{
     background: #e91e3a;
 }
 /* quiz css */
+
 #quiz{
     display: block;
     height: 480px;
@@ -100,7 +122,7 @@ body{
 {
  height: 60px;
  width: 100%;
- background: #fadafc;
+ background: #ff5235;
  position: absolute;
  top: 0;
  left: 0;
@@ -114,7 +136,7 @@ body{
 {
     font-size: 28px;
     margin: 0 20px;
-    color: #ff5235;
+    color: #000;
 }
 
 #quiz #historyquiz #timer
@@ -136,7 +158,7 @@ body{
     font-size: 22px;
     display: grid;
     place-items: center;
-    color: #fff;
+    color: #000;
     margin: 0 10px;
 
 }
@@ -145,7 +167,7 @@ body{
     height: 44px;
     width:50px;
     background: #fff;
-    color: #f69d9e;
+    color: #000;
     border: 1px solid #b0c4d8;
     border-radius: 15px 7px;
     margin: 2px 0 0 27px;
