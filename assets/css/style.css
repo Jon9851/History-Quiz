@@ -222,3 +222,16 @@ body{
 {
    pointer-events: none;
 }
+ #quiz,#result{
+    height: 500px;
+    width: 450px;
+    padding: 20px;
+    background: #e7f1fa;
+    border-radius: 30px 10px;
+    border: 1px solid #b0c4d8;
+    overflow: hidden;
+    position: relative;
+    /*display: none;*/
+
+
+}
