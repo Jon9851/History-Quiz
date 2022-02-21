@@ -49,7 +49,7 @@ let countDown = ()=>{
 // setInterval(countDown,1000);
 
 let loadData = ()=>{
- questionNo.innerText = quiz + 1 + 1 ". ";
- questionsText.innerText = MCQS[quiz.question;]
+ questionNo.innerText = quiz + 1 + 1 ".";
+ questionsText.innerText = MCQS[quiz.question];
  option1.innerText = MCQS[quiz].
 }

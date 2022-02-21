@@ -56,7 +56,7 @@ John Adams
 Thomas Jefferson
 
 // Question No #9
-who was the first man in space?
+Who was the first man in space?
 Yuri Gagarin-
 Neil Armstrong
 Buzz Aldrin
