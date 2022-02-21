@@ -1,20 +1,20 @@
 // Question No #1 
 what Year was the collosuem finsihed?
-80 AD
+80 AD -
 90 AD
 60 Ad
 50 AD
 
 // Question No #2
 Who was the first emperor for rome?
-Augustus 
+Augustus -
 Julius Caesar
 Nero
 Marcus Aurelius
 
 // Question No #3
 Whats was the bloodiest battle during the first world war?
-Battle of Verdun
+Battle of Verdun-
 Battle of Somme
 Battle of Amiens
 Battle of Passchebdaele
@@ -24,7 +24,7 @@ Battle of Passchebdaele
 What year did Queen Elizabeth become queen of United Kingdom?
 10th of May 1954
 3rd of August 1949
-2nd of June 1953
+2nd of June 1953 -
 23rd of july 1951
 
 // Question No #5
@@ -32,32 +32,32 @@ which country gave the statue of liberty a gift to the united states?
 Germany
 Spain
 United Kingdom
-France
+France-
 
 // Question No #6
 What was the Largest Contiguous Empire in History?
 Roman Empire
 British Empire
-Mongolian Empire
+Mongolian Empire-
 Ottoman Empire
 
 // Question No #7
 When was the Declaration of Independence Signed?
-July 2nd 1776
+July 2nd 1776 -
 March 10th 1776
 August 21st 1776
 September 1st 1776
 
 // Question No #8
 Who was the first president of the United States?
-George Washington 
+George Washington -
 Abraham Lincoln
 John Adams 
 Thomas Jefferson
 
 // Question No #9
 who was the first man in space?
-Yuri Gagarin
+Yuri Gagarin-
 Neil Armstrong
 Buzz Aldrin
 Wally Schirra
@@ -66,7 +66,126 @@ Wally Schirra
 What year was Microsoft Founded?
 12th of March 1970
 22nd of  Febuary 1988
-4th April 1975
+4th April 1975-
 31st of May 1975
 
 
+// Question No #11
+How many wives did Herny VIII have 
+7
+8
+9
+6-
+
+// Question No #12
+What was the pirate Blackbeards real name?
+Edward Teach-
+Bartholomew Roberts
+Charles Vane
+William Kidd
+
+// Question No #13
+Who panited the Mona Lisa
+Vincent van-Gogh
+Leonardo Da Vinci-
+Michelangelo
+Rembrandt
+
+// Question No #14
+Which one of these presidents are not on Mount Rushmore?
+George Washington 
+Abraham Lincoln 
+Andrew Jackson-
+Theodore Roosevelt
+
+
+// Question No #14
+ During which war was a Christmas Truce called?
+ WW1-
+ ww2
+ American Revolution
+ Cold War
+
+ 
+// Question No #15
+Who was the first ruler of the Mongol Empire?
+ Genghis Khan
+ Tolui Khan
+ Ogedei Khan
+ Guyuk Khan
+
+
+
+// Question No #16
+What year was the first iPhone released?
+1998
+1996
+1997 -
+1999
+
+// Question No #17
+What year did Google launch?
+1998-
+1999
+2000
+2001
+
+
+
+// Question No #18
+In which year was John F. Kennedy assassinated?
+1965
+1964
+1966
+1963-
+
+// Question No #19
+How many days in a week were there in ancient Roman times?
+8-
+9
+7
+6
+
+// Question No #20
+Which famous battle took place on Sunday, June 18th, 1815?
+Battle of Waterloo-
+Battle of Marengo
+Battle of Novi
+Battle of Valmy
+
+// Question No #21
+Where were the first modern Olympics held?
+Athens, Greece 1896-
+Paris, France 1896
+London, England 1896
+Madrid, Spain 1896
+
+
+
+// Question No #22
+Which team won the first Super Bowl?
+Greenbay Packers
+San Francisco 49ers
+New York Giants
+Chicago Bears
+
+// Question No #23
+In which year was the Berlin Wall torn down?
+1989-
+1988
+1987
+1986
+
+// Question No #24
+Who painted the Sistine Chapel?
+Vincent van-Gogh
+Leonardo Da Vinci
+Michelangelo-
+Rembrandt
+
+// Question No #25
+Who did Microsoft recenlty buy for £69billion USD
+Activison/Bilzzard
+Sony
+Bungie
+Rockstar

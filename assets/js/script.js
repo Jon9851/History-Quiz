@@ -21,7 +21,7 @@ let points = document.querySelector("#points");
 let exit = document.querySelector("#exit");
 
 // All h4 for quiz section
-let questionchocies = document.querySelector("#questionchocies");
+let questionchoices = document.querySelector("#questionchoices");
 
 let index = 0;
 let timer = 0;
@@ -46,4 +46,10 @@ let countDown = ()=>{
     }
 }
 
-setInterval(countDown,1000);
+// setInterval(countDown,1000);
+
+let loadData = ()=>{
+ questionNo.innerText = quiz + 1 + 1 ". ";
+ questionsText.innerText = MCQS[quiz.question;]
+ option1.innerText = MCQS[quiz].
+}
