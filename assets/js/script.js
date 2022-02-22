@@ -39,17 +39,26 @@ let countDown = ()=>{
     if(timer === 30)
     {
         clearInterval(interval);
+        next_question.click();
     }
     else{
         timer++;
-        console.log(timer);
+        time.innerText = timer;
     }
 }
 
 // setInterval(countDown,1000);
 
 let loadData = ()=>{
- questionNo.innerText = quiz + 1 + 1 ".";
- questionsText.innerText = MCQS[quiz.question];
- option1.innerText = MCQS[quiz].
+ questionNo.innerText = quiz + 1 +".";
+ questionsText.innerText = MCQS[quiz.question]; 
+ option1.innerText = MCQS[quiz].choice1;
+ option2.innerText = MCQS[quiz].choice2;
+ option3.innerText = MCQS[quiz].choice3;
+ option4.innerText = MCQS[quiz].choice4;
+
+    // start timer
+
+      timer = 0;
 }
+nextBtn.addEve
