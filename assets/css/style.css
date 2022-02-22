@@ -222,6 +222,25 @@ body{
 {
    pointer-events: none;
 }
+#next_question{
+    position: absolute;
+    top: 80%;
+    left:66%;
+    height: 50px;
+    width: 125px;
+    background-color: #ff5235;
+    line-height: 45px;
+    margin: 5px 0;
+    border-radius: 8px;
+    padding: 0 20px;
+    font-size: 18px;
+    color: #000;
+    overflow: hidden;
+    border: 1px solid #b0c4d8;
+    border-radius: 1px soild #b0c4d8;
+    cursor: pointer;
+
+}
  #quiz,#result{
     height: 500px;
     width: 450px;
