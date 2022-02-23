@@ -22,6 +22,7 @@ console.log(MCQS)
 let total_correct = document.querySelector("#total_correct");
 let next_question = document.querySelector("#next_question");
 
+
 // results section
 let points = document.querySelector("#points");
 let exit = document.querySelector("#exit");
@@ -57,62 +58,54 @@ let countDown = ()=>{
 
 // setInterval(countDown,1000);
 
-let loadData = ()=>{
- questionNo.innerText = `${questionDisplay}.` 
- questionsText.innerText = MCQS[questionCount].question; 
- option1.innerText = MCQS[questionCount].choice1;
- option2.innerText = MCQS[questionCount].choice2;
- option3.innerText = MCQS[questionCount].choice3;
- option4.innerText = MCQS[questionCount].choice4;
+const loadData = () =>{
+    questionNo.innerText = `${questionDisplay}.` 
+    questionsText.innerText = MCQS[questionCount].question; 
+    option1.innerText = MCQS[questionCount].choice1;
+    option2.innerText = MCQS[questionCount].choice2;
+    option3.innerText = MCQS[questionCount].choice3;
+    option4.innerText = MCQS[questionCount].choice4;
 
     // start timer
 
-      timer = 0;
+    timer = 0;
 }
-loadData()
-startBtn.addEventListener("click"   , ()=>{
-         quiz.style.display = "block";
-         gudie.style.dispaly = "none";
 
-        interval =setInterval(countDown, 1000);
-        loadData();
+
+const checkAnswer = () => {
+    questionchoices.forEach(choice => {
+        choice.addEventListener("click", ()=>{
+            console.log(choice.innerText)
+            choice.classList.add("active");
+             // check answer
+            if(choice.innerText === MCQS[questionCount].answer) {
+                console.log(MCQS[questionCount].answer)
+                correct = correct + 1;
+            }
+
+            //    stop timer
+            clearInterval(interval);
+            // Disbale options when user selects option
+            for(i = 0; i <=3; i++)
+            {
+                questionchoices[i].classList.add("disabled")
+            }
         
-       
-        total_correct.innerHTML = `${ correct = 0} Out Of ${MCQS.length}Questions`;
-});
-questionchoices.forEach(choice => 
-    choice.addEventListener("click", ()=>{
-        choice.classList.add("active");
-        // check answer
-        if(chocie.innerText === MCQS[quiz].answer)
-        {
-            correct += 0;
-        }
-      else 
-        {
-            correct += 0;
-        }
-    //    stop timer
-        clearInterval(interval);
-    // Disbale options when user selects option
-    for(i = 0; i <=3; i++)
-       {
-        questionchoices[i].classList.add("disabled")
-       }
-   
-    })
-);
-loadData()
+            })
+        });
+}
+
+console.log(correct)
 
 next_question.addEventListener("click" , ()=>{
-    if(index !== MCQS.length - 1){
-        index++;
+    if(questionCount !== MCQS.length - 1){
+        questionCount = questionCount + 1;
+        questionDisplay = questionDisplay + 1;
         questionchoices.forEach(removeActive =>{
             removeActive.classList.remove("active");
-           
         })
-      // queation
-      loadData()
+      // question
+      init()
 
 
     //   result
@@ -125,3 +118,12 @@ next_question.addEventListener("click" , ()=>{
     }
 
 })
+const init = () => {
+    loadData()
+    checkAnswer()
+    questionchoices.forEach(choice => {
+        choice.classList.remove("disabled")
+    })
+    console.log(correct)
+}
+init()
