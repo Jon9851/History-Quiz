@@ -96,14 +96,23 @@ const checkAnswer = () => {
 }
 
 console.log(correct)
+// change questions 
 
 next_question.addEventListener("click" , ()=>{
     if(questionCount !== MCQS.length - 1){
         questionCount = questionCount + 1;
         questionDisplay = questionDisplay + 1;
         questionchoices.forEach(removeActive =>{
-            removeActive.classList.remove("active");
+            removeActive.classList.remove(active);
         })
+
+    if (questionCount.length == 10 >= MAX_QUESTIONS){
+        return window.location.assign("score.html");
+
+         console.log("questionCount")
+    }
+    
+
       // question
       init()
 
