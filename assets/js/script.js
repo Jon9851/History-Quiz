@@ -70,7 +70,7 @@ const loadData = () =>{
 
     timer = 0;
 }
-
+const MAX_QUESTIONS = 10;
 
 const checkAnswer = () => {
     questionchoices.forEach(choice => {
@@ -98,19 +98,26 @@ const checkAnswer = () => {
 console.log(correct)
 // change questions 
 
+
 next_question.addEventListener("click" , ()=>{
     if(questionCount !== MCQS.length - 1){
         questionCount = questionCount + 1;
         questionDisplay = questionDisplay + 1;
         questionchoices.forEach(removeActive =>{
-            removeActive.classList.remove(active);
-        })
+        removeActive.classList.remove("active");
+        console.log("active");
+    
+    });
+        if (questionCount == 10){
+        
+            return window.location.assign("/score.html");
+        
+        
+            console.log("10 questions answered");
 
-    if (questionCount.length == 10 >= MAX_QUESTIONS){
-        return window.location.assign("score.html");
-
-         console.log("questionCount")
-    }
+        
+    };    
+       
     
 
       // question
@@ -125,7 +132,8 @@ next_question.addEventListener("click" , ()=>{
 
 
     }
-
+    
+console.log("total_correct");
 })
 const init = () => {
     loadData()
@@ -133,6 +141,9 @@ const init = () => {
     questionchoices.forEach(choice => {
         choice.classList.remove("disabled")
     })
+
+
+    
     console.log(correct)
 }
 init()
