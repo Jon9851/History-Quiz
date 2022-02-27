@@ -148,13 +148,64 @@ h4{
     background: #ff5235;
     font-size: 15px;
     min-width: 80rem;
+    place-items: center;
 }
 .choice-container:hover{
     
     background: #f00;
     box-shadow: 0 0.4rem 1.4rem 0 #ff5235;
     cursor: pointer;
+    transform: scale(1.02);
+    transform: transform 100ms;
 }
+.choice-prefix{
+    padding: 10px;
+    color: #000;
+    
+}
+.choice-text{
+    padding: 20px;
+    width: 100%;
+    
+}
+.correct{
+    background: linear-gradient(32deg, #f00) 100%;
 
+}
+.incorrect{
+    background: linear-gradient(32deg, yellow) 100%;
+}
+/* heads up dispaly  */
+#hud{
+    display: flex;
+    justify-content: space-between;
+}
+#hud-prefix{
+    text-align: center;
+    font-size: 20px;
+}
+.hud-main-text{
+    text-align: center;
+}
+#progressBar{
+    width: 20rem;
+    height: 3rem;
+    border: 3px solid #ff5235;
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+#progressBarFull{
+    height: 100%;
+    background: #f00;
+    width: 0%;
+}
+/* media query */
+@media screen and (max-width: 768px) {
+     .choice-container{
+         min-width: 40rem;
+     }
+    
+}
 
 
