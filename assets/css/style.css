@@ -140,5 +140,21 @@ h4{
     color: #e7f1fa;
 }
 /* quiz css */
+.choice-container {
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 100%;
+    border-radius: 4px;
+    background: #ff5235;
+    font-size: 15px;
+    min-width: 80rem;
+}
+.choice-container:hover{
+    
+    background: #f00;
+    box-shadow: 0 0.4rem 1.4rem 0 #ff5235;
+    cursor: pointer;
+}
+
 
 
