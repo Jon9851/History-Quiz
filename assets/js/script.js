@@ -62,93 +62,160 @@ let questions = [
     },
     {
         question:'When was the Declaration of Independence Signed?',
-        choice1: 'July 2nd 1776 ',
+        choice1: 'July 2nd 1776',
         choice2: 'March 10th 1776',
         choice3: 'August 21st 1776',
         choice4: 'September 1st 1776', 
         answer: '1',
     },
     {
-        question:'',
-        choice1: '',
-        choice1: '',
-        choice1: '',
-        choice1: '',  
-        answer: '',
+        question:'Who was the first president of the United States?',
+        choice1: 'George Washington -',
+        choice2: 'Abraham Lincoln',
+        choice3: 'John Adams ',
+        choice4: 'Thomas Jefferson',  
+        answer: '1',
     },
 
     {
-        question:'',
-        choice1: '',
-        choice1: '',
-        choice1: '',
-        choice1: '',  
-        answer: '',
+        question:'Who was the first man in space?',
+        choice1: 'Yuri Gagarin',
+        choice2: 'Neil Armstrong',
+        choice3: 'Buzz Aldrin',
+        choice4: 'Wally Schirra',  
+        answer: '1',
     },
     {
-        question:'',
-        choice1: '',
-        choice1: '',
-        choice1: '',
-        choice1: '', 
-        answer: '',
+        question:'What year was Microsoft Founded?',
+        choice1: '12th of March 1970',
+        choice2: '22nd of  Febuary 1988',
+        choice3: '4th April 1975',
+        choice4: '31st of May 1975', 
+        answer: '3',
     },
     {
-        question:'',
-        choice1: '',
-        choice1: '',
-        choice1: '',
-        choice1: '',  
-        answer: '',
+        question:'How many wives did Herny VIII have',
+        choice1: '8',
+        choice2: '9',
+        choice3: '7',
+        choice4: '6',  
+        answer: '4',
     },
     {
-        question:'',
-        choice1: '',
-        choice1: '',
-        choice1: '',
-        choice1: '',  
-        answer: '',
+        question:'What was the pirate Blackbeards real name',
+        choice1: 'Edward Teach',
+        choice2: 'Bartholomew Robert',
+        choice3: 'Charles Van',
+        choice4: 'William Kid',  
+        answer: '1',
     },
     {
-        question:'',
-        choice1: '',
-        choice1: '',
-        choice1: '',
-        choice1: '',  
-        answer: '',
+        question:'Who panited the Mona Lisa',
+        choice1: 'Vincent van-Gogh',
+        choice2: 'Leonardo Da Vinci',
+        choice3: 'Michelangelo',
+        choice4: 'Rembrandt',  
+        answer: '2',
     },
     {
-        question:'',
-        choice1: '',
-        choice1: '',
-        choice1: '',
-        choice1: '',  
-        answer: '',
+        question:'Which one of these presidents are not on Mount Rushmore',
+        choice1: 'George Washington',
+        choice2: 'Abraham Lincoln',
+        choice3: 'Andrew Jackson',
+        choice: 'Theodore Roosevel',  
+        answer: '3',
     },
     {
-        question:'',
-        choice1: '',
-        choice1: '',
-        choice1: '',
-        choice1: '',  
-        answer: '',
+        question:'During which war was a Christmas Truce called?',
+        choice1: 'WW1',
+        choice2: 'ww2',
+        choice3: 'American Revolution',
+        choice4: 'Cold War',  
+        answer: '1',
     },
 
     {
-        question:'',
-        choice1: '',
-        choice1: '',
-        choice1: '',
-        choice1: '',  
-        answer: '',
+        question:'Who was the first ruler of the Mongol Empire?',
+        choice1: ' Genghis Khan',
+        choice2: ' Tolui Khan',
+        choice3: ' Ogedei Khan',
+        choice4: ' Guyuk Khan',  
+        answer: '1',
     },
     {
-        question:'',
-        choice1: '',
-        choice1: '',
-        choice1: '',
-        choice1: '', 
-        answer: '',
+        question:'What year was the first iPhone released',
+        choice1: '1996',
+        choice2: '1999',
+        choice3: '1997',
+        choice4: '1998', 
+        answer: '3',
+
 
     }
 ]   
+
+const SCORE_POINTS = 1
+const MAX_QUESTIONS = 16
+
+startGame = () => {
+    questionCounter = 0
+    score = 0
+    availableQuestions =[...question]
+    getNewQuestion()
+}
+getNewQuestion = () => {
+    if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS){
+          localStorage.setItem('mostRecentScore', score)
+          return window.location.assign('/end.html')
+    }
+    questionCounter++
+    progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`
+    progressBarFull.style.width =`${(questionCounter/MAX_QUESTIONS) * 100}%`
+
+    const questionsIndex = Math.floor(Math.random() * availableQuestions.length)
+    currentQuestion = availableQuestions[questionsIndex]
+    question.innerText = currentQuestion.question
+
+    choices.forEach(choice =>{
+        const number = choice.dataset['number']
+        choice.innerText = currentQuestion['choice' + number]
+
+    })
+    availableQuestions.splice(questionsIndex, 1)
+
+    acceptingAnswers = true
+}
+
+choices.forEach(choice =>{
+    choice.addEventListener('click', e =>{
+        if(!acceptingAnswers) return
+
+        acceptingAnswers = false
+        const selectedChoice = e.target
+        const selectedAnswer = selectedChoice.dataset['number']
+
+        let classToApply = selectedAnswer == currentQuestion.answer? 'correct' :
+        'incorrect'
+
+        if(classToApply === 'correct') {
+            incrementScore(SCORE_POINTS)
+        }
+
+        selectedChoice.parentElement.classList.add(classToApply)
+        
+        setTimeout (() =>{ 
+        selectedChoice.parentElement.classList.remove(classToApply)
+        getNewQuestion()
+
+      }, 40)
+
+
+    })
+})
+
+incrementScore = num => {
+    score +=num
+    scoreText.innerText = score
+}
+
+startGame()
