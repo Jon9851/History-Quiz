@@ -1,22 +1,22 @@
 // Question No #1 
 what Year was the collosuem finsihed?
-80 AD -
+80 AD 
 90 AD
 60 AD
 50 AD
 
 // Question No #2
 Who was the first emperor for rome?
-Augustus -
+Augustus 
 Julius Caesar
 Nero
 Marcus Aurelius
 
 // Question No #3
 Whats was the bloodiest battle during the first world war?
-Battle of Verdun-
 Battle of Somme
 Battle of Amiens
+Battle of Verdun
 Battle of Passchebdaele
 
 // Question No #4
@@ -24,26 +24,26 @@ Battle of Passchebdaele
 What year did Queen Elizabeth become queen of United Kingdom?
 10th of May 1954
 3rd of August 1949
-2nd of June 1953 -
+2nd of June 1953 
 23rd of july 1951
 
 // Question No #5
-which country gave the statue of liberty a gift to the united states?
+Which country gave the statue of liberty a gift to the united states?
 Germany
 Spain
 United Kingdom
-France-
+France
 
 // Question No #6
 What was the Largest Contiguous Empire in History?
 Roman Empire
+Mongolian Empire
 British Empire
-Mongolian Empire-
 Ottoman Empire
 
 // Question No #7
 When was the Declaration of Independence Signed?
-July 2nd 1776 -
+July 2nd 1776 
 March 10th 1776
 August 21st 1776
 September 1st 1776
