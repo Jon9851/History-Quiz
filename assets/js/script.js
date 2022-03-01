@@ -28,7 +28,7 @@ let questions = [
         answer: 1,
     },
     {
-        question:'Whats was the bloodiest battle during the first world war?',
+        question:'What was the bloodiest battle during the first world war?',
         choice1: "Battle of Somme",
         choice2: "Battle of Amiens",
         choice3: "Battle of Verdun",  
@@ -36,7 +36,7 @@ let questions = [
         answer: 3,
     },
     {
-        question:'What year did Queen Elizabeth become queen of United Kingdom?',
+        question:'What year did Queen Elizabeth II become queen of United Kingdom?',
         choice1: "10th of May 1954",
         choice2: "3rd of August 1949",
         choice3: "2nd of June 1953",
@@ -45,7 +45,7 @@ let questions = [
     },
 
     {
-        question:'Which country gave the statue of liberty a gift to the united states?',
+        question:'Which country gave the statue of liberty a gift to the United States?',
         choice1: "Germany",
         choice2: "Spain",
         choice3: "United Kingdom",
@@ -94,7 +94,7 @@ let questions = [
         answer: 3,
     },
     {
-        question:'How many wives did Herny VIII have',
+        question:'How many wives did Herny VIII have?',
         choice1: "8",
         choice2: "9",
         choice3: "7",
@@ -102,7 +102,7 @@ let questions = [
         answer: 4,
     },
     {
-        question:'What was the pirate Blackbeards real name',
+        question:'What was the pirate Blackbeards real name?',
         choice1: "Edward Teach",
         choice2: "Bartholomew Robert",
         choice3: "Charles Van",
@@ -110,7 +110,7 @@ let questions = [
         answer: 1,
     },
     {
-        question:'Who panited the Mona Lisa',
+        question:'Who panited the Mona Lisa?',
         choice1: "Vincent van-Gogh",
         choice2: "Leonardo Da Vinci",
         choice3: "Michelangelo",
@@ -118,7 +118,7 @@ let questions = [
         answer: 2,
     },
     {
-        question:'Which one of these presidents are not on Mount Rushmore',
+        question:'Which one of these presidents are not on Mount Rushmore?',
         choice1: "George Washington",
         choice2: "Abraham Lincoln",
         choice3: "Andrew Jackson",
@@ -143,7 +143,7 @@ let questions = [
         answer: 1,
     },
     {
-        question:'What year was the first iPhone released',
+        question:'What year was the first iPhone released?',
         choice1: "1996",
         choice2: "1999",
         choice3: "1997",
