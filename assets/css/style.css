@@ -105,26 +105,7 @@ body{
     border: 4px solid #ff5235;
 }
 /* media query for home page */
-@media (max-width: 767px){
-    #world{
-     width: 20rem;
-     margin-right: 15%;
-     font-size: 17px;
-    }
-    #startBtn{
-        width: 10rem;
-        margin-left: 18%;
-    }
-    #startin{
-        width: 10rem;
-        margin-left: 18%;
-    }
-    #startsc{
-        width: 10rem;
-        margin-left: 18%;
-    }
-    
-}
+
 @media (max-width: 1024px){
     #world{
         width: 30rem;
@@ -145,6 +126,26 @@ body{
            margin-left: 28%;
        }
        
+}
+@media (max-width: 767px){
+    #world{
+     width: 20rem;
+     margin-right: 15%;
+     font-size: 17px;
+    }
+    #startBtn{
+        width: 10rem;
+        margin-left: 18%;
+    }
+    #startin{
+        width: 10rem;
+        margin-left: 18%;
+    }
+    #startsc{
+        width: 10rem;
+        margin-left: 18%;
+    }
+    
 }
 /* guide section */
 .guide{
