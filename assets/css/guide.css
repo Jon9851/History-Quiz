@@ -1,0 +1,43 @@
+/* guide section */
+.guide{
+    margin: auto;
+    height: 290px;
+    width: 450xpx;
+    border: 2px solid #ff5235;
+    border-radius: 20px 10px;
+    background-color: whitesmoke;
+    padding: 30px 0;
+    background: #ff5235;
+ 
+ }
+ h2{
+     text-align: center;
+     font-size: 50px;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     color: #f6f6f6;
+ }
+ h4{
+     height: 30px;
+     color: #f6f6f6;
+ }
+ #homeBtn{
+     height: 20px;
+     width: 100px;
+     text-align: center;
+     padding: 10px 0;
+     margin-left: 39%;
+     background: #f6f6f6;
+     color: #ff5235;
+     font-size: 18px;
+     font-weight: 600;
+     border-radius: 30px 10px;
+     border: 3px solid #ff5235;
+     cursor: pointer;
+     display:inline-table;
+     text-decoration: none;
+ }
+ 
+ #homeBtn:hover{
+     background: #f6f6f6;
+     color: #ff5235;
+ }
