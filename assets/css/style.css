@@ -115,35 +115,35 @@ body{
        }
        #startBtn{
            width: 20rem;
-           margin-left: 28%;
+           margin-left: 35%;
        }
        #startin{
            width: 20rem;
-           margin-left: 28%;
+           margin-left: 35%;
        }
        #startsc{
            width: 20rem;
-           margin-left: 28%;
+           margin-left: 35%;
        }
        
 }
 @media (max-width: 767px){
     #world{
-     width: 20rem;
-     margin-right: 15%;
-     font-size: 17px;
+     width: 60%;
+     font-size: 15px;
+     padding: 7%;
     }
     #startBtn{
         width: 10rem;
-        margin-left: 18%;
+        margin-left: 24%;
     }
     #startin{
         width: 10rem;
-        margin-left: 18%;
+        margin-left: 24%;
     }
     #startsc{
         width: 10rem;
-        margin-left: 18%;
+        margin-left: 24%;
     }
     
 }
