@@ -1,45 +1,44 @@
 /* score css */
-.container{
+.container {
     border: 5px solid #ff5235;
     border-radius: 30px 10px;
     height: 30rem;
-}
-.end-form-container{
-    width:100%;
+  }
+  .end-form-container {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 30rem;
     margin-top: 60px;
-
-}
-input{
+  }
+  input {
     margin-bottom: 1rem;
     width: 20rem;
     padding: 1.5rem;
     font-size: 1.8rem;
     border: none;
-}
-
-input::placeholder{
+  }
+  
+  input::placeholder {
     color: #ff5235;
-}
-
-#username{
+  }
+  
+  #username {
     margin-bottom: 3rem;
     width: 100%;
-}
-#add-text{
+  }
+  #add-text {
     color: #ff5235;
     font-size: 15px;
-}
-#end-text{
+  }
+  #end-text {
     font-size: 2.4rem;
     color: #ff5235;
     text-align: center;
-}
-
-.bttn{
+  }
+  
+  .bttn {
     height: 20px;
     width: 100px;
     text-align: center;
@@ -52,11 +51,12 @@ input::placeholder{
     border-radius: 30px 10px;
     border: 3px solid #ff5235;
     cursor: pointer;
-    display:inline-table;
+    display: inline-table;
     text-decoration: none;
-}
-
-.Bttn:hover{
-background: #f6f6f6;
-color: #ff5235;
-}
+  }
+  
+  .Bttn:hover {
+    background: #f6f6f6;
+    color: #ff5235;
+  }
+  
