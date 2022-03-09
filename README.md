@@ -19,7 +19,7 @@ Welcome to your guide through History Quiz <a href="https://jon9851.github.io/Hi
       * [Score](<#Score>)
       * [Buttons](<#Buttons>)
 * [**Future Features**](<#future-features>)
-* [**Technologies Used**](<#Technologies Used>)
+* [**Technologies Used**](<#Technologies-Used>)
 * [**Testing**](<#testing>)
 * [**Deployment**](<#deployment>)
 * [**Credits**](<#credits>)
