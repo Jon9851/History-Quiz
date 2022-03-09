@@ -21,7 +21,7 @@
     box-shadow: 0 0.4rem 1.4rem 0 #ff5235;
     cursor: pointer;
     transform: scale(1.02);
-    transform: transform 100ms;
+    text-transform: uppercase;
 }
 .choice-prefix{
     padding: 10px;
@@ -32,12 +32,6 @@
     padding: 10px;
     width: 50%;
     margin: 2px;
-}
-.correct{
-    background: linear-gradient(32deg, #f00) 100%;
-}
-.incorrect{
-    background: linear-gradient(32deg, yellow) 100%;
 }
 /* heads up dispaly  */
 #hud{
@@ -69,7 +63,6 @@
 #progressText{
     margin-left: 14px;
     font-size: 20px;
-    font-style: bold;
 }
 #question{
     font-size: 16px;

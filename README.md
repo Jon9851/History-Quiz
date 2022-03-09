@@ -1,108 +1,150 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+**_History Quiz_**
+All credit and design for the html and javascrpit goes to BrianCodex
 
-Welcome Jon9851,
+Welcome to your guide through History Quiz <a href="https://jon9851.github.io/History-Quiz/" target="_blank" rel="noopner">History Quiz</a>
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Quiz of the World responiveness](assets/images/world.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+# Contents
 
-## Gitpod Reminders
+* [**User Experience UX**](<#user-experience-ux>)
+  * [User Stories](<#user-stories>)
+  * [Wireframes](<#wireframes>)
+  * [Design Choices](<#design-choices>)
+  * [Color Scheme](<#color-scheme>)
+  * [**Features**](<#features>)
+      * [Home](<#Home>)
+      * [Insturctions](<#Instructions>)
+      * [Game](<#Game>)
+      * [Score](<#Score>)
+      * [Buttons](<#Buttons>)
+* [**Future Features**](<#future-features>)
+* [**Technologies Used**](<#Technologies Used>)
+* [**Testing**](<#testing>)
+* [**Deployment**](<#deployment>)
+* [**Credits**](<#credits>)
+* [**Content**](<#content>)
+* [**Media**](<#media>)
+* [**Acknowledgements**](<#acknowledgements>)                
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+# User Experience (UX)
 
-`python3 -m http.server`
+## User stories
 
-A blue button should appear to click: _Make Public_,
+![User Stories](assets/readme-images/users.png)
+## Wireframes
+The wireframes for ‘You Matter’ were produced in[Balsamiq](https://balsamiq.com).
+There are frames for a full width display ( 1920 x 1080 )and a small mobile 
+device (360 x 640). The final site varies slightly from the wireframes due to bugs and design 
+changes during development that occurred during the creation process.
+ 
 
-Another blue button should appear to click: _Open Browser_.
+![Wireframe Desktop](assets/readme-images/youmatterwireframe1.png)
+![Wireframe Mobile](assets/readme-images/youmattermobileframe.png)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+[Contents](<#contents>)
 
-A blue button should appear to click: _Make Public_,
+# Design Choices
+ When designing the quiz of the world I wanted the quiz game to be simple and educational. The index page contains a brief introduction to the game, with three buttons directly underneath introduction paragraph. 
+ 
+ A feature that I knew I was implementing early on was highlight option so that the user knew exactly where they where on the page and what buttons they were clicking. The quiz itself is a multiple-choice quiz as I knew the some of the question might be a bit difficult. Included in the game is a progress bar and a score counter so that the user can keep an eye on there score while playing the game.
+ 
+ I hope that the users take away a bit of knowledge form playing the quiz of the world.
 
-Another blue button should appear to click: _Open Browser_.
+![Hex Color](assets/readme-images/hexcolor2.png)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+[Contents](<#contents>)
 
-To log into the Heroku toolbelt CLI:
+# Features
+### Home
+The quiz of the world is a simple quiz game that contains 3 buttons on the home page. Each button will take user to three different pages. The buttons will be highlighted once the user clicked on them, this so that the user and keep track of which page they are on.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![Home](assets/images/home.png)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### Instructions
+The instructions page contains a summary of the games rules as well as button to return home.
+![Instructions](assets/images/instructions.png)
 
-------
+### Game
+The game contains multiple different features which are designed to help the user while playing the quiz of the world.
 
-## Release History
+1.	Located on the top left is a question counter to help the user keep track of what question they are up too.
+2.	Below the question counter is a progress bar which fills up as the user progress through the quiz.
+3.	Located on the top right is a score counter which will help the user keep track of the scores. 
+4.	
+5.	The quiz it is self is a multiple-choice quiz with four possible answers with 17 questions in total.
+6.	Each answer will change colour once selected. 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+![Game](assets/images/game.png)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### Score
+The score page has some text and a name box as well as two buttons which will either restart the quiz or take the user back to the home page. 
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+![Game](assets/images/score.png)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+[Contents](<#contents>)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+## Deployment
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+  ### **Deployment**
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+  The site was deployed using GitHub. THe following step will depoly You matter site.
+  1. on the github repository, naviagte to **Settings** tab.
+  2. Once on setting page, naviagte to **Pages** on the left hand side of the screen second from the bottom.
+  3. Under **Source**, select the branch to **main**, then click **save**.
+  4.  once you have selected the main branch, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+ 
+ ![GitHub pages for deployment](assets/readme-images/github.jpg)
+ 
+ # Technologies Used
+   
+* [HTML5](https://html.spec.whatwg.org/) -Used to create the contents and structure for the website.
+* [CSS](https://www.w3.org/Style/CSS/Overview.en.html) -Used to create the styling.
+* [Balsamiq](https://balsamiq.com/wireframes/) - Used to create the wireframes.
+* [Gitpod](https://www.gitpod.io/#get-started) - Used to deploy the website.
+* [Github](https://github.com/) - Used to host and edit the website code.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+[Contents](<#contents>)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+# Testing
+ Please refer to [**_here_**](TESTING.md) for more information on testing 'You Matter'.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+  
+The live link will take you directly to **You Matter** repository - https://jon9851.github.io/You-Matter-/
+  
+  # Clone  Repository
+   To Clone a repository use the following steps to guide you throught it.
+   1. Under the repository’s name, click on the code tab.
+   2. click on the clipboard icon to copy the given URL.
+   3. In your IDE of choice, open Git Bash.
+   4. Change the current working directory to the location where you want the cloned directory to be made.
+   5. Type git clone, and then paste the URL copied from GitHub.
+   6. Press enter and the local clone will be created.
 
-------
+   ![clone Image ](assets/readme-images/clone.png)
 
-## FAQ about the uptime script
 
-**Why have you added this script?**
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+[Contents](<#contents>)
 
-**How will this affect me?**
+### Credits
+* The font used came from [Google Fonts](https://fonts.google.com/).
+* The map used is from [Google Maps](https://www.google.com/maps).
+* Balsamiq was used to create the wireframes [Balsamiq](https://balsamiq.com/)
+* Font Awesome was used for the icons on You Matter. [Font Awesome](https://fontawesome.com/)
+* All images contained with You Matter where uploaded on [Postimage](https://postimages.org/)
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+### Media
+   * Images used came from [unsplash](https://unsplash.com/)
+   * Videos used came from [youtube](http://youtube.com)
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+[Contents](<#contents>)
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+# Acknowledgements
+ 
+ The site was cerated for my milestone project 1 for the [Code Institute](https://codeinstitute.net/) Full Stack Software Developer diploma. I would like to thank all the tutors at the code institute for their help during the development of my first milestone project. I would aslo like to thank [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/) for his guidence and help as his feedback was extremely key in completing my first milestone project.
