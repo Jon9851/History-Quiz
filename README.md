@@ -24,14 +24,20 @@ Welcome to your guide through History Quiz <a href="https://jon9851.github.io/Hi
 * [**Deployment**](<#deployment>)
 * [**Credits**](<#credits>)
 * [**Content**](<#content>)
-* [**Media**](<#media>)
+* [**Future Features**](<Future-Features>)
 * [**Acknowledgements**](<#acknowledgements>)                
 
 # User Experience (UX)
 
 ## User stories
 
-![User Stories](assets/readme-images/users.png)
+![User Stories](assets/images/usertest.png)
+
+1. The first attemp on my iphone caused issues with being able to see the quiz as it was too zoomed in.
+2. I would have liked to see the correct answer appear in a different colour so that i knew what the answer was to the question.
+3. The quiz seemed slow on my phone, chaning questions wasnt instant and took a few seconds to switch.
+4. I would have liked a function that saved my score.
+
 ## Wireframes
 The wireframes for ‘You Matter’ were produced in[Balsamiq](https://balsamiq.com).
 There are frames for a full width display ( 1920 x 1080 )and a small mobile 
@@ -39,8 +45,8 @@ device (360 x 640). The final site varies slightly from the wireframes due to bu
 changes during development that occurred during the creation process.
  
 
-![Wireframe Desktop](assets/readme-images/youmatterwireframe1.png)
-![Wireframe Mobile](assets/readme-images/youmattermobileframe.png)
+![Wireframe Desktop](assets/images/historywire.png)
+![Wireframe Mobile](assets/images/mobilequiz.png)
 
 [Contents](<#contents>)
 
@@ -51,7 +57,8 @@ changes during development that occurred during the creation process.
  
  I hope that the users take away a bit of knowledge form playing the quiz of the world.
 
-![Hex Color](assets/readme-images/hexcolor2.png)
+![Hex Color](assets/images/hexquiz.png)
+ THe colors that where choosen for the history quiz are displayed in the image above.
 
 [Contents](<#contents>)
 
@@ -94,7 +101,7 @@ The score page has some text and a name box as well as two buttons which will ei
   3. Under **Source**, select the branch to **main**, then click **save**.
   4.  once you have selected the main branch, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
  
- ![GitHub pages for deployment](assets/readme-images/github.jpg)
+ ![GitHub pages for deployment](assets/images/github.jpg)
  
  # Technologies Used
    
@@ -103,19 +110,17 @@ The score page has some text and a name box as well as two buttons which will ei
 * [Balsamiq](https://balsamiq.com/wireframes/) - Used to create the wireframes.
 * [Gitpod](https://www.gitpod.io/#get-started) - Used to deploy the website.
 * [Github](https://github.com/) - Used to host and edit the website code.
-
+* [Code Beautify](https://codebeautify.org/jsvalidate) - To test and run the code
+* [W3 Schools](https://validator.w3.org/)- To test the html and css code.
+* [JavaScript (ES6)](https://open-vsx.gitpod.io/vscode/item?itemName=xabikos.JavaScriptSnippets)
+* [ami responsive design](http://ami.responsivedesign.is) - To test out responsiness all devices
 
 [Contents](<#contents>)
-
-
 
 # Testing
  Please refer to [**_here_**](TESTING.md) for more information on testing 'You Matter'.
 
-
-
-  
-The live link will take you directly to **You Matter** repository - https://jon9851.github.io/You-Matter-/
+The live link will take you directly to **History Quiz** repository - https://github.com/Jon9851/History-Quiz
   
   # Clone  Repository
    To Clone a repository use the following steps to guide you throught it.
@@ -126,25 +131,21 @@ The live link will take you directly to **You Matter** repository - https://jon9
    5. Type git clone, and then paste the URL copied from GitHub.
    6. Press enter and the local clone will be created.
 
-   ![clone Image ](assets/readme-images/clone.png)
+   ![clone Image ](assets/images/clone.png)
 
 
 
 [Contents](<#contents>)
 
 ### Credits
-* The font used came from [Google Fonts](https://fonts.google.com/).
-* The map used is from [Google Maps](https://www.google.com/maps).
-* Balsamiq was used to create the wireframes [Balsamiq](https://balsamiq.com/)
-* Font Awesome was used for the icons on You Matter. [Font Awesome](https://fontawesome.com/)
-* All images contained with You Matter where uploaded on [Postimage](https://postimages.org/)
-
-### Media
-   * Images used came from [unsplash](https://unsplash.com/)
-   * Videos used came from [youtube](http://youtube.com)
+1. W3schools- I used their tutorials on HTML and CSS for further understanding and troubleshooting  throughout my project.
+2. Stack Overflow- I used Stack Overflow to get a more in depth understanding on HTML and CSS throughout my project.
+3. Code Institute Example of the READ.MD- I used these as template when planning and writing my README file.
+4.Code Institute tutors that helped me during my project.
 
 [Contents](<#contents>)
 
 # Acknowledgements
  
  The site was cerated for my milestone project 1 for the [Code Institute](https://codeinstitute.net/) Full Stack Software Developer diploma. I would like to thank all the tutors at the code institute for their help during the development of my first milestone project. I would aslo like to thank [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/) for his guidence and help as his feedback was extremely key in completing my first milestone project.
+ Brain Codex for help during the creation process. [Brian Codex](https://github.com/briancodex/quiz-app-js)
