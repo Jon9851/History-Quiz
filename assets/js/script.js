@@ -144,10 +144,10 @@ let questions = [
     },
     {
         question:'What year was the first iPhone released?',
-        choice1: "1996",
-        choice2: "1999",
-        choice3: "1997",
-        choice4: "1998", 
+        choice1: "2006",
+        choice2: "2009",
+        choice3: "2007",
+        choice4: "2008", 
         answer: 3,
 
 

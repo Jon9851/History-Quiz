@@ -78,14 +78,14 @@ The game contains multiple different features which are designed to help the use
 1.	Located on the top left is a question counter to help the user keep track of what question they are up too.
 2.	Below the question counter is a progress bar which fills up as the user progress through the quiz.
 3.	Located on the top right is a score counter which will help the user keep track of the scores. 
-4.	
+4.	THe questions are displayed below the progress bar and change at random once a question has been answered.
 5.	The quiz it is self is a multiple-choice quiz with four possible answers with 17 questions in total.
-6.	Each answer will change colour once selected. 
+6.	Each option will change colour once selected. 
 
 ![Game](assets/images/game.png)
 
 ### Score
-The score page has some text and a name box as well as two buttons which will either restart the quiz or take the user back to the home page. 
+The score page has a line of text and a name box as well as two buttons which will either restart the quiz or take the user back to the home page. 
 
 ![Game](assets/images/score.png)
 
