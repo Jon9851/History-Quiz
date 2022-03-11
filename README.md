@@ -1,5 +1,5 @@
 **_History Quiz_**
-All credit and design for the html and javascrpit goes to BrianCodex
+All credit for the html code desgin and javascrpit code goes to [Brian Codex](https://github.com/briancodex/quiz-app-js).
 
 Welcome to your guide through History Quiz <a href="https://jon9851.github.io/History-Quiz/" target="_blank" rel="noopner">History Quiz</a>
 
