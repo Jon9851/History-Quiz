@@ -2,11 +2,11 @@ const highScores = JSON.parse(localStorage.getItem('highScores')) || []
 
 const MAX_HIGH_SCORES = 17
 
-finalScore.innerText = mostRecentScore
+// finalScore.innerText = mostRecentScore
 
-username.addEventListener('keyup', () => {
-    saveScoreBtn.disabled = !username.value
-})
+// username.addEventListener('keyup', () => {
+//     saveScoreBtn.disabled = !username.value
+// })
 
 saveHighScore = e => {
     e.preventDefault()
