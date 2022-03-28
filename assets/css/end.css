@@ -40,7 +40,15 @@ h1 {
   color: #ff5235;
   text-align: center;
 }
-
+.container img{
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  height: 7rem;
+  margin-top: 0.85rem;
+  margin-left: 35%;
+  
+}
 .bttn {
   height: 20px;
   width: 100px;

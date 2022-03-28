@@ -18,7 +18,7 @@ body {
   text-align: center;
   padding: 20px 0;
   background: black;
-  color: whitesmoke;
+  color: #ff5235;
   font-family: Cookie, cursive;
   font-size: 23px;
   font-weight: 600;
@@ -26,17 +26,24 @@ body {
   border: 3px solid #ff5235;
   display: inline-table;
   text-decoration: none;
-  background-color: #ff5235;
+  background-color: #98c1d9;
   cursor: pointer;
 }
 #world:hover {
-  background: whitesmoke;
-  color: #ff5235;
+  background: #ff5003;
+  color: #26456e;
 }
 
 .containerh {
   height: auto;
   width: auto;
+}
+img{
+  width: 80%;
+  border: 2px solid #98c1d9;
+  border-radius: 30px 10px;
+  margin-bottom: 5%;
+  
 }
 /* start section */
 #startBtn {
@@ -44,8 +51,8 @@ body {
   width: 250px;
   text-align: center;
   padding: 20px 0;
-  background: #ff5235;
-  color: #f6f6f6;
+  background: #98c1d9;
+  color: #ff5235;
   font-size: 23px;
   font-weight: 600;
   border-radius: 30px 10px;
@@ -55,8 +62,8 @@ body {
   text-decoration: none;
 }
 #startBtn:hover {
-  background: #f6f6f6;
-  color: #ff5235;
+  background: #ff5235;
+  color: #26456e;
   border: 4px solid #ff5235;
 }
 .containerh {
@@ -75,8 +82,8 @@ body {
   width: 250px;
   text-align: center;
   padding: 20px 0;
-  background: #ff5235;
-  color: #f6f6f6;
+  background: #98c1d9;
+  color: #ff5235;
   font-size: 23px;
   font-weight: 600;
   border-radius: 30px 10px;
@@ -86,8 +93,8 @@ body {
   text-decoration: none;
 }
 #startin:hover {
-  background: #f6f6f6;
-  color: #ff5235;
+  background: #ff5235;
+  color: #26456e;
   border: 4px solid #ff5235;
 }
 #startsc {
@@ -95,19 +102,19 @@ body {
   width: 250px;
   text-align: center;
   padding: 20px 0;
-  background: #ff5235;
-  color: #f6f6f6;
+  background: #98c1d9;
+  color: #ff5235;
   font-size: 23px;
   font-weight: 600;
   border-radius: 30px 10px;
-  border: 1px solid #b0c4d8;
+  border: 1px solid #ff5235;
   cursor: pointer;
   display: inline-table;
   text-decoration: none;
 }
 #startsc:hover {
-  background: #f6f6f6;
-  color: #ff5235;
+  background: #ff5235;
+  color: #26456e;
   border: 4px solid #ff5235;
 }
 /* media query for home page */
