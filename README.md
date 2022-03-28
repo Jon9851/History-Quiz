@@ -57,8 +57,14 @@ changes during development that occurred during the creation process.
  
  I hope that the users take away a bit of knowledge form playing the quiz of the world.
 
-![Hex Color](assets/images/hexquiz.png)
- THe colors that where choosen for the history quiz are displayed in the image above.
+![Hex Color](assets/images/hexcolor.png)
+ THe colors that where choosen for the history quiz are displayed in image above.
+
+ Dark Blue with a hex code of #26456e was used to help the text and disgusie it from the lightblue color so it stood out more.
+
+ Lightblue with a hex code of 98c1d9 was used for backgorunds and borders. 
+
+ Orange with a hex code of #ff5235 was used of text, borders and backgorunds. 
 
 [Contents](<#contents>)
 
