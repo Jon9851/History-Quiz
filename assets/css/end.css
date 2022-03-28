@@ -3,6 +3,7 @@
   border: 5px solid #ff5235;
   border-radius: 30px 10px;
   height: 30rem;
+  background-color: #98c1d9;
 }
 .end-form-container {
   width: 100%;
@@ -18,10 +19,11 @@ input {
   padding: 1.5rem;
   font-size: 1.8rem;
   border: none;
+  background-color: #ff5235;
 }
 
 input::placeholder {
-  color: #ff5235;
+  color: #26456e;
 }
 
 #username {
@@ -56,7 +58,7 @@ h1 {
   padding: 10px 0;
   margin-left: 39%;
   background: #ff5235;
-  color: #f6f6f6;
+  color: #26456e;
   font-size: 18px;
   font-weight: 600;
   border-radius: 30px 10px;
@@ -67,6 +69,6 @@ h1 {
 }
 
 .Bttn:hover {
-  background: #f6f6f6;
-  color: #ff5235;
+  background: #ff5235;
+  color: #26456e;
 }

@@ -2,6 +2,7 @@
 .container{
     border: 6px solid #ff5235;
     border-radius: 30px 10px;
+    background-color: #98c1d9;
 }
 .choice-container {
     display: flex;
@@ -32,11 +33,13 @@
     padding: 10px;
     width: 50%;
     margin: 2px;
+    color: #26456e;
 }
 /* heads up dispaly  */
 #hud{
     display: flex;
     justify-content: space-between;
+    color: #ff5235;
 }
 #hud-prefix{
     text-align: center;
@@ -45,6 +48,7 @@
 }
 .hud-main-text{
     text-align: center;
+    color: #ff5235;
 }
 #progressBar{
     width: 20rem;
@@ -63,9 +67,11 @@
 #progressText{
     margin-left: 14px;
     font-size: 20px;
+    color: #ff5235;
 }
 #question{
     font-size: 16px;
+    color: #ff5235;
 }
  /* media query  for display and game page*/
  @media (max-width: 1024px){
