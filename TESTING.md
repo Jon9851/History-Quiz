@@ -1,4 +1,5 @@
 * [**Testing**](<#testing>)
+* [**Manual Testing**](<#manual-testing>)
 * [**Bugs**](<#bugs>)
 * [**Accessibilty**](<#accessibilty>)
 # Testing
@@ -30,8 +31,14 @@ W3C markup validator and W3C CSS validator were used to test and vailidate all t
 
 ![Testing on W3C Html](assets/images/shtml.png)
 
-![Testing on W3C CSS)](assets/images/scorecss.png)
- 
+![Testing on W3C CSS](assets/images/scorecss.png)
+
+# Manual Testing
+The following images show manual testing accross completed across the project.
+
+![Manual Testing](assets/images/manual1.png)
+![Manual Testing](assets/images/manual2.png)
+![Manual Testing](assets/images/manual3.png) 
 # BUGS
 The orginal design for you matter change a lot due to bugs and learning curves i faced during the development of this project. 
 

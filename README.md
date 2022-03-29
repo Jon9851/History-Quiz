@@ -35,7 +35,7 @@ Welcome to your guide through History Quiz <a href="https://jon9851.github.io/Hi
 
 1. The first attemp on my iphone caused issues with being able to see the quiz as it was too zoomed in.
 2. I would have liked to see the correct answer appear in a different colour so that i knew what the answer was to the question.
-3. The quiz seemed slow on my phone, chaning questions wasnt instant and took a few seconds to switch.
+3. The quiz seemed slow on my phone, changing questions wasnt instant and took a few seconds to switch.
 4. I would have liked a function that saved my score.
 
 ## Wireframes
