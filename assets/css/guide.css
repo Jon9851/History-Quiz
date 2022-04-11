@@ -2,38 +2,38 @@
 .guide {
     margin: auto;
     width: 450px;
-    border: 2px solid #ff5235;
+    border: 2px solid #f6f6f6;
     border-radius: 20px 10px;
     padding: 30px 30px;
-    background: #98c1d9;
+    background: #9E2C0B;
 }h2 {
     text-align: center;
     font-size: 40px;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    color: #ff5235;
+    color: #f6f6f6;
     margin: 1.5rem 0;
 }
 h4 {
-    color: #ff5235;
+    color: #f6f6f6;
     margin: 1.5rem 0;
 }
 #homeBtn {
     width: 100px;
     text-align: center;
     padding: 10px 0;
-    background: #ff5235;
-    color: #98c1d9;
+    background: #9E2C0B;
+    color: #f6f6f6;
     font-size: 18px;
     font-weight: 600;
     border-radius: 30px 10px;
-    border: 3px solid #ff5235;
+    border: 3px solid #f6f6f6;
     cursor: pointer;
     display: block;
     margin: 1.5rem auto;
     text-decoration: none;
 }
 #homeBtn:hover {
-    background: #ff5235;
-    color: #26456e;
+    background: #f6f6f6;
+    color: #9E2C0B;
 }
   
