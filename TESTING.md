@@ -40,7 +40,7 @@ The following images show manual testing accross completed across the project.
 ![Manual Testing](assets/images/manual2.png)
 ![Manual Testing](assets/images/manual3.png) 
 # BUGS
-The orginal design for you matter change a lot due to bugs and learning curves i faced during the development of this project. 
+The orginal design for the history quiz has changed a lot due to bugs and learning curves i faced during the development of this project. 
 
   1. color change when user selects wrong answer  does not activate.
   2. Question choices appear to small on smaller devices they do not fill up the full page.
@@ -48,7 +48,7 @@ The orginal design for you matter change a lot due to bugs and learning curves i
   4. During testing users score didnt save feature removed.
 
 # Accessibilty
-Accessibilty was tested on lighthouse during the development of You Matter. The results are displayed below.
+Accessibilty was tested on lighthouse during the development of  history quiz. The results are distheplayed below.
 
 ![Accessibilty Testing](assets/images/quizlight.png)
 

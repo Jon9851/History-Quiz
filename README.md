@@ -1,18 +1,26 @@
 **_History Quiz_**
 All credit for the html code desgin and javascrpit code goes to [Brian Codex](https://github.com/briancodex/quiz-app-js).
 
+Welcome to the history quiz, this quiz will test your knowledge on world history through out many different centuries of our history. 
+
+Being a big fan of history and im always keen on learning as much as I can this why I choose to do a history quiz. We can learn so much from history and it is our jobs to pass this knowledge. Winston Churchill famously said, “Those that fail to learn from history are doomed to repeat it”. 
+
+After doing hours of research on what to do for my second project I kept coming across, the same results on the top 10 JavaScript projects for beginners and a quiz was in 90% of these this why I choose to build a quiz. 
+
 Welcome to your guide through History Quiz <a href="https://jon9851.github.io/History-Quiz/" target="_blank" rel="noopner">History Quiz</a>
+
+
 
 ![Quiz of the World responiveness](assets/images/world.png)
 
 # Contents
 
 * [**User Experience UX**](<#user-experience-ux>)
-  * [User Stories](<#user-stories>)
-  * [Wireframes](<#wireframes>)
-  * [Design Choices](<#design-choices>)
-  * [Color Scheme](<#color-scheme>)
-  * [**Features**](<#features>)
+      * [User Stories](<#user-stories>)
+* [**Wireframes**](<#wireframes>)
+* [**Design Choices**](<#design-choices>)
+      * [Color Scheme](<#color-scheme>)
+* [**Features**](<#features>)
       * [Home](<#Home>)
       * [Insturctions](<#Instructions>)
       * [Game](<#Game>)
@@ -31,14 +39,21 @@ Welcome to your guide through History Quiz <a href="https://jon9851.github.io/Hi
 
 ## User stories
 
-![User Stories](assets/images/usertest.png)
+ ### First time Vistor Goals 
+1. I want a quiz that provides rules and instructions on how to play the game.
+2. I would like to know where abouts on the page im on.
+3. I want to be able to play the game either on laptop or on my phone. 
 
-1. The first attemp on my iphone caused issues with being able to see the quiz as it was too zoomed in.
-2. I would have liked to see the correct answer appear in a different colour so that i knew what the answer was to the question.
-3. The quiz seemed slow on my phone, changing questions wasnt instant and took a few seconds to switch.
-4. I would have liked a function that saved my score.
+ ### Returning Vistor Goals   
+1. I would have liked to see the correct answer appear in a different colour so that i knew what the answer was to the question.
+2. The quiz seemed slow on my phone, changing questions wasn`t instant and took a few seconds to switch.
 
-## Wireframes
+ ### Frequent User Goals
+1. I would have like the questions to appear randomised every time I play so I am not answering the same questions every time I play.
+
+
+
+# Wireframes
 The wireframes for ‘You Matter’ were produced in[Balsamiq](https://balsamiq.com).
 There are frames for a full width display ( 1920 x 1080 )and a small mobile 
 device (360 x 640). The final site varies slightly from the wireframes due to bugs and design 

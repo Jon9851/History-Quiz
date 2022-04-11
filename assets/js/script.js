@@ -198,9 +198,11 @@ choices.forEach(choice => {
         const selectedAnswer = selectedChoice.dataset['number']
 
         let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'
+        console.log(classToApply)
 
         if(classToApply === 'correct') {
             incrementScore(SCORE_POINTS)
+            console.log("classToApply:", classToApply);
         }
 
         selectedChoice.parentElement.classList.add(classToApply)

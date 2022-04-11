@@ -8,9 +8,9 @@
     display: flex;
     margin-bottom: 0.8rem;
     height: fit-content;
-    border: 3px solid #f00;
+    border: 3px solid #f6f6f6;
     border-radius: 4px;
-    background: #ff5235;
+    background: #9E2C0B;
     font-size: 15px;
     place-items: center;
     margin-left: 1rem;
@@ -18,8 +18,9 @@
 }
 .choice-container:hover{
     
-    background: #f00;
-    box-shadow: 0 0.4rem 1.4rem 0 #ff5235;
+    background: #f6f6f6;
+    color: #9E2C0B;
+    box-shadow: 0 0.4rem 1.4rem 0 #9E2C0B;
     cursor: pointer;
     transform: scale(1.02);
     text-transform: uppercase;
@@ -33,20 +34,23 @@
     padding: 10px;
     width: 50%;
     margin: 2px;
-    color: #26456e;
+    color: #f6f6f6;
+}
+.choice-text:hover{
+    color: #9E2C0B;
 }
 .correct {
-    background: 
-}
+    background: #fdc500;
 
+}
 .incorrect {
-    background:
+    background: #ee4b2b;
 }
 /* heads up dispaly  */
 #hud{
     display: flex;
     justify-content: space-between;
-    color: #ff5235;
+    color: #f6f6f6;
 }
 #hud-prefix{
     text-align: center;
@@ -55,12 +59,12 @@
 }
 .hud-main-text{
     text-align: center;
-    color: #ff5235;
+    color: #f6f6f6;
 }
 #progressBar{
     width: 20rem;
     height: 3rem;
-    border: 3px solid #ff5235;
+    border: 3px solid #f6f6f6;
     margin-top: 2rem;
     margin-left: 2px;
     border-radius: 50px;
@@ -68,17 +72,17 @@
 }
 #progressBarFull{
     height: 100%;
-    background: #f00;
+    background: #000;
     width: 0%;
 }
 #progressText{
     margin-left: 14px;
     font-size: 20px;
-    color: #ff5235;
+    color: #f6f6f6;
 }
 #question{
     font-size: 16px;
-    color: #ff5235;
+    color: #f6f6f6;
 }
  /* media query  for display and game page*/
  @media (max-width: 1024px){
