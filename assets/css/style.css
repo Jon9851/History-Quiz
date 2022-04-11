@@ -9,7 +9,7 @@ body {
   display: grid;
   place-items: center;
   height: 100vh;
-  background-color: #f6f6f6;
+  background-color: #84A2B7;
 }
 
 #world {
@@ -18,20 +18,20 @@ body {
   text-align: center;
   padding: 20px 0;
   background: black;
-  color: #cc1f00;
+  color: #f6f6f6;
   font-family: Cookie, cursive;
   font-size: 23px;
   font-weight: 600;
   border-radius: 30px 10px;
-  border: 3px solid #ff5235;
+  border: 3px solid #f6f6f6;
   display: inline-table;
   text-decoration: none;
-  background-color: #98c1d9;
+  background-color: #9E2C0B;
   cursor: pointer;
 }
 #world:hover {
-  background: #ff5003;
-  color: #26456e;
+  background: #f6f6f6;
+  color: #9E2C0B;
 }
 
 .containerh {
@@ -40,7 +40,7 @@ body {
 }
 img{
   width: 80%;
-  border: 2px solid #98c1d9;
+  border: 2px solid #f6f6f6;
   border-radius: 30px 10px;
   margin-bottom: 5%;
   
@@ -51,8 +51,8 @@ img{
   width: 250px;
   text-align: center;
   padding: 20px 0;
-  background: #98c1d9;
-  color: #cc1f00;
+  background: #9E2C0B;
+  color: #f6f6f6;
   font-size: 23px;
   font-weight: 600;
   border-radius: 30px 10px;
@@ -62,9 +62,9 @@ img{
   text-decoration: none;
 }
 #startBtn:hover {
-  background: #ff5235;
-  color: #26456e;
-  border: 4px solid #ff5235;
+  background: #f6f6f6;
+  color: #9E2C0B;
+  border: 4px solid #9E2C0B;
 }
 .containerh {
   display: flex;
@@ -82,40 +82,40 @@ img{
   width: 250px;
   text-align: center;
   padding: 20px 0;
-  background: #98c1d9;
-  color: #ff5235;
+  background: #9E2C0B;
+  color: #f6f6f6;
   font-size: 23px;
   font-weight: 600;
   border-radius: 30px 10px;
-  border: 1px solid #ff5235;
+  border: 1px solid #f6f6f6;
   cursor: pointer;
   display: inline-table;
   text-decoration: none;
 }
 #startin:hover {
-  background: #ff5235;
-  color: #26456e;
-  border: 4px solid #ff5235;
+  background: #f6f6f6;
+  color: #9E2C0B;
+  border: 4px solid #9E2C0B;
 }
 #startsc {
   height: 30px;
   width: 250px;
   text-align: center;
   padding: 20px 0;
-  background: #98c1d9;
-  color: #ff5235;
+  background: #9E2C0B;
+  color: #f6f6f6;
   font-size: 23px;
   font-weight: 600;
   border-radius: 30px 10px;
-  border: 1px solid #ff5235;
+  border: 1px solid #f6f6f6;
   cursor: pointer;
   display: inline-table;
   text-decoration: none;
 }
 #startsc:hover {
-  background: #ff5235;
-  color: #26456e;
-  border: 4px solid #ff5235;
+  background: #f6f6f6;
+  color: #9E2C0B;
+  border: 4px solid #f6f6f6;
 }
 /* media query for home page */
 

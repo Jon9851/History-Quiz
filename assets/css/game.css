@@ -35,7 +35,13 @@
     margin: 2px;
     color: #26456e;
 }
+.correct {
+    background: 
+}
 
+.incorrect {
+    background:
+}
 /* heads up dispaly  */
 #hud{
     display: flex;
