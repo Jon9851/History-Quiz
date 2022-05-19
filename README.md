@@ -11,7 +11,7 @@ Welcome to your guide through History Quiz <a href="https://jon9851.github.io/Hi
 
 
 
-![Quiz of the World responiveness](assets/images/imr.png)
+![Quiz of the World responiveness](assets/images/imr1.png)
 
 # Contents
 
@@ -144,7 +144,7 @@ The score page has a line of text and a name box as well as two buttons which wi
 [Contents](<#contents>)
 
 # Testing
- Please refer to [**_here_**](TESTING.md) for more information on testing 'You Matter'.
+ Please refer to [**_here_**](TESTING.md) for more information on testing 'Quiz Of The World'.
 
 The live link will take you directly to **History Quiz** repository - https://github.com/Jon9851/History-Quiz
   
