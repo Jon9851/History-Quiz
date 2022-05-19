@@ -46,18 +46,30 @@ W3C markup validator and W3C CSS validator were used to test and vailidate all t
 
 ### Javascript tests
 |Test| Issues/Bugs|Solutions|Functional|
-|---|---|---|---|
+|----|------------|---------|----------|
 |JavaScript answers|While testing the quiz to see if the answer would run. I noticed that answers would not load up correctly.|While reviewing the answers on the JavaScript I noticed that I had used a single quotation mark instead of a double quotation mark this caused the answer not to load. All changed|Testing the quiz all question loaded up and ran with no issues.|
 |JavaScript setTimeOut()|Timer set to 0.06  which is incorrect, cannot detected bugs as the timer changes questions to quickly.|Timer changed to 1000, this will allow test to be carried out, to see if there are any bugs|Timer changed, no bugs or issues found|
 |Colour change on answers (Javascript function)  |Colours for incorrect and correct answers would not change, when you selected your answer.|Problem solved, this was achived by adding a line of code to the javascript file| All questions tested,  colour change on questions now appears.|
 
+### Responisveness Testing
+| Test Responsiveness | Issues Type     | Solutions | Functional |
+|---------------------|-----------------|-----------|------------|
+| Iphone 5            | No Issues seen  | N/A       | Pass       |
+| Iphone 6            | No issues Seen  | N/A       | Pass       |
+| Iphone 8/9/10       | No Issues seen  | N/A       | Pass       |
+| Screen Size 768px   | No Issues seen  | N/A       | Pass       |
+| Screen Size 1024px  | No Issues seen  | N/A       | Pass       |
+| Ipad                | No issues seen  | N/A       | Pass       |
+
+![Responsiveness](assets/images/imr1.png)
+![Responsiveness](assets/images/imr2.png)
 
 
 # BUGS
 The orginal design for the history quiz has changed a lot due to bugs and learning curves i faced during the development of this project. 
 
   1. color change when user selects wrong answer  does not activate. This has now been fixed.
-  2. Question choices appear to small on smaller devices they do not fill up the full page.
+  2. Question choices appear to small on smaller devices they do not fill up the full page. Boxes now fill up the screen, small editing reuqired on css file.
   3. Timer does not function correclty after 60seconds. questions should have skip once the timer has ran out.
   4. During testing users score didnt save feature removed.
 

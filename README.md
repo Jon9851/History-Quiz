@@ -11,7 +11,7 @@ Welcome to your guide through History Quiz <a href="https://jon9851.github.io/Hi
 
 
 
-![Quiz of the World responiveness](assets/images/world.png)
+![Quiz of the World responiveness](assets/images/imr.png)
 
 # Contents
 
@@ -51,6 +51,11 @@ Welcome to your guide through History Quiz <a href="https://jon9851.github.io/Hi
  ### Frequent User Goals
 1. I would have like the questions to appear randomised every time I play so I am not answering the same questions every time I play.
 
+### User Feedback
+Having reviewed the user goals i have implemented changes to the quiz game. This will satisfy all types of user whether your a first time user or a returning one.
+
+![User Feed Back Changes](assets/images/test1.png)
+![User Feed Back Changes](assets/images/test2.png)
 
 
 # Wireframes
