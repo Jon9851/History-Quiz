@@ -211,7 +211,7 @@ choices.forEach(choice => {
             selectedChoice.parentElement.classList.remove(classToApply)
             getNewQuestion()
 
-        }, 60)
+        }, 1000)
     })
 })
 

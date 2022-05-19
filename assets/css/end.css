@@ -1,9 +1,10 @@
 /* score css */
 .container {
-  border: 5px solid #ff5235;
+  border: 5px solid #f6f6f6;
   border-radius: 30px 10px;
-  height: 30rem;
-  background-color: #98c1d9;
+  height: 40rem;
+  background-color: #9e2c0b;
+
 }
 .end-form-container {
   width: 100%;
@@ -19,11 +20,11 @@ input {
   padding: 1.5rem;
   font-size: 1.8rem;
   border: none;
-  background-color: #ff5235;
+  background-color: #f6f6f6;
 }
 
 input::placeholder {
-  color: #26456e;
+  color: #9e2c0b;
 }
 
 #username {
@@ -34,12 +35,12 @@ h1 {
   display: none;
 }
 #add-text {
-  color: #ff5235;
+  color: #f6f6f6;
   font-size: 15px;
 }
 #end-text {
   font-size: 2.4rem;
-  color: #ff5235;
+  color: #f6f6f6;
   text-align: center;
 }
 .container img{
@@ -49,20 +50,28 @@ h1 {
   height: 7rem;
   margin-top: 0.85rem;
   margin-left: 35%;
-  
+} 
+#submit{
+border-radius: 30px 10px;
+color: #9e2c0b;
+height: 40px;
+width: 100%;
+font-size: 18px;
+font-weight: 600;
+text-align: center;
 }
 .bttn {
   height: 20px;
   width: 100px;
   text-align: center;
-  padding: 10px 0;
+  padding: 10px 1px;
   margin-left: 39%;
-  background: #ff5235;
-  color: #26456e;
+  margin-top: 5%;
+  background: #f6f6f6;
+  color: #9e2c0b;
   font-size: 18px;
   font-weight: 600;
   border-radius: 30px 10px;
-  border: 3px solid #ff5235;
   cursor: pointer;
   display: inline-table;
   text-decoration: none;
