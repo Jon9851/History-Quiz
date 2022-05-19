@@ -34,15 +34,29 @@ W3C markup validator and W3C CSS validator were used to test and vailidate all t
 ![Testing on W3C CSS](assets/images/scorecss.png)
 
 # Manual Testing
-The following images show manual testing accross completed across the project.
 
-![Manual Testing](assets/images/manual1.png)
-![Manual Testing](assets/images/manual2.png)
-![Manual Testing](assets/images/manual3.png) 
+### Html and css Tests
+|  Test  | Issues/Bugs  | Solution   | Functional  |
+|--------|--------|--------|--------|
+| Button positioning and size | Buttons would not appear in the correct area or seemed to be too big for the container| All the buttons were placed into an id element and configured with CSS. This was done by using display function with an inline table to solve the issue  |All tests ran with no issues on different devices.|
+| Button positioning and size  |  Lets begin button would appear on the right hand side, of the screen|Image width chnaged from 80% to 100% which moved the lets begin button back to its orginal posistion|Button appears in the correct postiion|
+|Colour contrasts|Colour contrasts came in at 2.95. this caused issues with accessibility|The entire colour scheme has been changed from orange and white to orange and blue (two different shades of blue)|Ran through lighthouse contrast came out at 8.33. colour chnaged to white and copper colour   |
+|Buttons links|When testing the site, the button wouldn’t  change to the different pages on the website|When reviewing the code for the href elements. I noticed that due to a change in the file names i haven’t change to src links to account for the new file names|All links tested and working fine|
+|Html closing tag|Missing html closing tag on index.html page|Closing tag added|Test and no issues appeared on w3 validator.|
+
+### Javascript tests
+|Test| Issues/Bugs|Solutions|Functional|
+|---|---|---|---|
+|JavaScript answers|While testing the quiz to see if the answer would run. I noticed that answers would not load up correctly.|While reviewing the answers on the JavaScript I noticed that I had used a single quotation mark instead of a double quotation mark this caused the answer not to load. All changed|Testing the quiz all question loaded up and ran with no issues.|
+|JavaScript setTimeOut()|Timer set to 0.06  which is incorrect, cannot detected bugs as the timer changes questions to quickly.|Timer changed to 1000, this will allow test to be carried out, to see if there are any bugs|Timer changed, no bugs or issues found|
+|Colour change on answers (Javascript function)  |Colours for incorrect and correct answers would not change, when you selected your answer.|Problem solved, this was achived by adding a line of code to the javascript file| All questions tested,  colour change on questions now appears.|
+
+
+
 # BUGS
 The orginal design for the history quiz has changed a lot due to bugs and learning curves i faced during the development of this project. 
 
-  1. color change when user selects wrong answer  does not activate.
+  1. color change when user selects wrong answer  does not activate. This has now been fixed.
   2. Question choices appear to small on smaller devices they do not fill up the full page.
   3. Timer does not function correclty after 60seconds. questions should have skip once the timer has ran out.
   4. During testing users score didnt save feature removed.
