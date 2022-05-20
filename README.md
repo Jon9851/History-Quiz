@@ -113,7 +113,7 @@ The game contains multiple different features which are designed to help the use
 ### Score
 The score page has a line of text and a name box as well as two buttons which will either restart the quiz or take the user back to the home page. 
 
-![Game](assets/images/score1.png)
+![Game](assets/images/score1.PNG)
 
 [Contents](<#contents>)
 

@@ -61,6 +61,7 @@ W3C markup validator and W3C CSS validator were used to test and vailidate all t
 | Screen Size 768px   | No Issues seen  | N/A       | Pass       |
 | Screen Size 1024px  | No Issues seen  | N/A       | Pass       |
 | Ipad                | No issues seen  | N/A       | Pass       |
+
 ![Responsiveness](assets/images/imr1.png)
 ![Responsiveness](assets/images/imr2.png)
 
