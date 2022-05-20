@@ -50,6 +50,7 @@ Welcome to your guide through History Quiz <a href="https://jon9851.github.io/Hi
 
  ### Frequent User Goals
 1. I would have like the questions to appear randomised every time I play so I am not answering the same questions every time I play.
+2. I would like to have feedback on the questions i got correct or incorrect, some kind of idenifcation of the correct or incorrect answers would be greatly appreciated.
 
 ### User Feedback
 Having reviewed the user goals i have implemented changes to the quiz game. This will satisfy all types of user whether your a first time user or a returning one.

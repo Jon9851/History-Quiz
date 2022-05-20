@@ -50,7 +50,8 @@ W3C markup validator and W3C CSS validator were used to test and vailidate all t
 |JavaScript answers|While testing the quiz to see if the answer would run. I noticed that answers would not load up correctly.|While reviewing the answers on the JavaScript I noticed that I had used a single quotation mark instead of a double quotation mark this caused the answer not to load. All changed|Testing the quiz all question loaded up and ran with no issues.|
 |JavaScript setTimeOut()|Timer set to 0.06  which is incorrect, cannot detected bugs as the timer changes questions to quickly.|Timer changed to 1000, this will allow test to be carried out, to see if there are any bugs|Timer changed, no bugs or issues found|
 |Colour change on answers (Javascript function)  |Colours for incorrect and correct answers would not change, when you selected your answer.|Problem solved, this was achived by adding a line of code to the javascript file| All questions tested,  colour change on questions now appears.|
-
+|Progress bar|Game test by playing the quiz, the progress bar fills up as you complete the 10 questions|No issues found| No fixes needed.|
+|Score counter|Score counter test by playing the game, this tested by selecting the correct and incorrect answers. Colour chanage functions wasnt working.|Colour function for incorrect and correct answer now fully functioning.|Line of javascrpit code added to the make colour change function work.|
 ### Responisveness Testing
 | Test Responsiveness | Issues Type     | Solutions | Functional |
 |---------------------|-----------------|-----------|------------|
