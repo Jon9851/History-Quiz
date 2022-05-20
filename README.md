@@ -80,9 +80,9 @@ changes during development that occurred during the creation process.
 ![Hex Color](assets/images/hex1.PNG)
  THe colors that where choosen for the history quiz are displayed in image above.
 
- Dark Blue with a hex code of #9e2c0b was used for text, backgorund and hoover effects.(Copper-brown colour)
+ Red Copper with a hex code of #9e2c0b was used for text, backgorund and hoover effects.(Red- Copper colour)
 
- Lightblue with a hex code of #f6f6f6 was used text, backgorund and hoover effects.(Ivory white)
+ White smoke with a hex code of #f6f6f6 was used text, backgorund and hoover effects.(White Smoke)
 
   
 
