@@ -62,8 +62,8 @@ W3C markup validator and W3C CSS validator were used to test and vailidate all t
 | Screen Size 1024px  | No Issues seen  | N/A       | Pass       |
 | Ipad                | No issues seen  | N/A       | Pass       |
 
-![Responsiveness](assets/images/imr1.png)
-![Responsiveness](assets/images/imr2.png)
+![Responsiveness](assets/images/imr1.PNG)
+![Responsiveness](assets/images/imr2.PNG)
 
 ### Deployed Testing
 | Test                              | Outcome                                                     | Result                                                    |
@@ -81,8 +81,8 @@ W3C markup validator and W3C CSS validator were used to test and vailidate all t
 |I would have like the questions to appear randomised every time I play so I am not answering the same questions every time I play.|Achieved|
 |I would like to have feedback on the questions i got correct or incorrect, some kind of idenifcation of the correct or incorrect answers would be greatly appreciated.|Achieved|
 
-![Instructions](assets/images/submit2.png)
-![Home](assets/images/submit1.png)
+![Instructions](assets/images/submit2.PNG)
+![Home](assets/images/submit1.PNG)
 ![User Feed Back Changes](assets/images/home1.PNG)
 ![User Feed Back Changes](assets/images/ins.PNG)
 ![User Feed Back Changes](assets/images/score1.PNG)

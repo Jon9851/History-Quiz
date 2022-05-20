@@ -92,11 +92,11 @@ changes during development that occurred during the creation process.
 ### Home
 The quiz of the world is a simple quiz game that contains 3 buttons on the home page. Each button will take user to three different pages. The buttons will be highlighted once the user clicked on them, this so that the user and keep track of which page they are on.
 
-![Home](assets/images/home1.png)
+![Home](assets/images/home1.PNG)
 
 ### Instructions
 The instructions page contains a summary of the games rules as well as button to return home.
-![Instructions](assets/images/ins.png)
+![Instructions](assets/images/ins.PNG)
 
 ### Game
 The game contains multiple different features which are designed to help the user while playing the quiz of the world.
