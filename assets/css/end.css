@@ -89,3 +89,14 @@ text-align: center;
   background: #ff5235;
   color: #26456e;
 }
+/* form css */
+.submit1 {
+  margin-top: 1%;
+  border-radius: 2px;
+  padding: 15px 32px 15px 32px;
+  text-align: center;
+  font-size: 100%;
+  background-color: #F16C6B;
+  color: #FAFAFA;
+  display: block;
+}
