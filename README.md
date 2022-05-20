@@ -16,11 +16,11 @@ Welcome to your guide through History Quiz <a href="https://jon9851.github.io/Hi
 # Contents
 
 * [**User Experience UX**](<#user-experience-ux>)
-       * [User Stories](<#user-stories>)
-* [**Wireframes**](<#wireframes>)
-* [**Design Choices**](<#design-choices>)
+   * [User Stories](<#user-stories>)
+   * [**Wireframes**](<#wireframes>)
+   * [**Design Choices**](<#design-choices>)
        * [Color Scheme](<#color-scheme>)
-* [**Features**](<#features>)
+   * [**Features**](<#features>)
        * [Home](<#Home>)
        * [Insturctions](<#Instructions>)
        * [Game](<#Game>)
@@ -55,8 +55,7 @@ Welcome to your guide through History Quiz <a href="https://jon9851.github.io/Hi
 ### User Feedback
 Having reviewed the user goals i have implemented changes to the quiz game. This will satisfy all types of user whether your a first time user or a returning one.
 
-![User Feed Back Changes](assets/images/test1.png)
-![User Feed Back Changes](assets/images/test2.png)
+
 
 
 # Wireframes
@@ -78,14 +77,14 @@ changes during development that occurred during the creation process.
  
  I hope that the users take away a bit of knowledge form playing the quiz of the world.
 
-![Hex Color](assets/images/hexcolor.png)
+![Hex Color](assets/images/hex1.PNG)
  THe colors that where choosen for the history quiz are displayed in image above.
 
- Dark Blue with a hex code of #26456e was used to help the text and disgusie it from the lightblue color so it stood out more.
+ Dark Blue with a hex code of #9e2c0b was used for text, backgorund and hoover effects.(Copper-brown colour)
 
- Lightblue with a hex code of 98c1d9 was used for backgorunds and borders. 
+ Lightblue with a hex code of #f6f6f6 was used text, backgorund and hoover effects.(Ivory white)
 
- Orange with a hex code of #ff5235 was used of text, borders and backgorunds. 
+  
 
 [Contents](<#contents>)
 
@@ -93,11 +92,11 @@ changes during development that occurred during the creation process.
 ### Home
 The quiz of the world is a simple quiz game that contains 3 buttons on the home page. Each button will take user to three different pages. The buttons will be highlighted once the user clicked on them, this so that the user and keep track of which page they are on.
 
-![Home](assets/images/home.png)
+![Home](assets/images/home1.png)
 
 ### Instructions
 The instructions page contains a summary of the games rules as well as button to return home.
-![Instructions](assets/images/instructions.png)
+![Instructions](assets/images/ins.png)
 
 ### Game
 The game contains multiple different features which are designed to help the user while playing the quiz of the world.
@@ -109,12 +108,12 @@ The game contains multiple different features which are designed to help the use
 5.	The quiz it is self is a multiple-choice quiz with four possible answers with 17 questions in total.
 6.	Each option will change colour once selected. 
 
-![Game](assets/images/game.png)
+![Game](assets/images/test1.png)
 
 ### Score
 The score page has a line of text and a name box as well as two buttons which will either restart the quiz or take the user back to the home page. 
 
-![Game](assets/images/score.png)
+![Game](assets/images/score1.png)
 
 [Contents](<#contents>)
 

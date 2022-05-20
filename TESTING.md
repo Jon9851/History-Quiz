@@ -33,7 +33,7 @@ W3C markup validator and W3C CSS validator were used to test and vailidate all t
 
 ![Testing on W3C CSS](assets/images/scorecss.png)
 
-# Manual Testing
+# Manual Testing/ Devlepoment
 
 ### Html and css Tests
 |  Test  | Issues/Bugs  | Solution   | Functional  |
@@ -65,7 +65,29 @@ W3C markup validator and W3C CSS validator were used to test and vailidate all t
 ![Responsiveness](assets/images/imr1.png)
 ![Responsiveness](assets/images/imr2.png)
 
+### Deployed Testing
+| Test                              | Outcome                                                     | Result                                                    |
+|-----------------------------------|-------------------------------------------------------------|-----------------------------------------------------------|
+| Check against development version | Has the testing criteria been applied to deployed version   | Pass, No Issues                                           |
+| visual Check                      | All visual checks carried out on full deployment version?   | Pass                                                      |
+| Code checked                      | Has the code been checked for errors?                       | Code check and ran through w3 validator and CSS validator |
 
+### User Feedback Testing 
+| User Feedback | Result  |
+|---------------|---------|
+|I want a quiz that provides rules and instructions on how to play the game.|Achieved|
+|I want to be able to play the game either on laptop or on my phone.|Achieved|
+|I would like to know where abouts on the page im on.|Achieved|
+|I would have like the questions to appear randomised every time I play so I am not answering the same questions every time I play.|Achieved|
+|I would like to have feedback on the questions i got correct or incorrect, some kind of idenifcation of the correct or incorrect answers would be greatly appreciated.|Achieved|
+
+![Instructions](assets/images/submit2.png)
+![Home](assets/images/submit1.png)
+![User Feed Back Changes](assets/images/home1.PNG)
+![User Feed Back Changes](assets/images/ins.PNG)
+![User Feed Back Changes](assets/images/score1.PNG)
+![User Feed Back Changes](assets/images/test1.png)
+![User Feed Back Changes](assets/images/test2.png)
 # BUGS
 The orginal design for the history quiz has changed a lot due to bugs and learning curves i faced during the development of this project. 
 

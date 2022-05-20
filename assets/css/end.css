@@ -86,8 +86,8 @@ text-align: center;
 }
 
 .Bttn:hover {
-  background: #ff5235;
-  color: #26456e;
+  background: #f6f6f6;
+  color: #9e2c0b;
 }
 /* form css */
 .submit1 {
@@ -96,7 +96,7 @@ text-align: center;
   padding: 15px 32px 15px 32px;
   text-align: center;
   font-size: 100%;
-  background-color: #F16C6B;
-  color: #FAFAFA;
+  background-color: #9e2c0b;
+  color: #f6f6f6;
   display: block;
 }
